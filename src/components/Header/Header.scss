@@ -1,0 +1,20 @@
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 18px;
+
+  .header-wrapper {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+
+    .logo {
+      height: 26px;
+    }
+
+    @media screen and(min-width: 500px) {
+      width: 80%;
+    }
+  }
+}
