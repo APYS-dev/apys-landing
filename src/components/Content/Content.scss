@@ -1,0 +1,205 @@
+.content {
+  display: flex;
+  justify-content: center;
+
+  &-wrapper {
+    align-self: center;
+    flex-direction: column;
+    width: 90%;
+
+    @media screen and(min-width: 500px) {
+      width: 80%;
+    }
+  }
+
+  .deposit-btn-wrap {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+  }
+
+  &-main-info {
+    margin-top: 62px;
+    align-items: center;
+    flex-direction: column;
+
+    p {
+      font-family: 'WorkSans', Arial, sans-serif;
+      font-style: normal;
+      text-align: center;
+    }
+
+    .title {
+      font-weight: 500;
+      font-size: 60px;
+      line-height: 70px;
+    }
+
+    .about {
+      margin-top: 15px;
+      font-weight: 200;
+      font-size: 24px;
+      line-height: 132.3%;
+    }
+
+    .buttons {
+      margin-top: 28px;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      gap: 28px;
+    }
+
+    .preview {
+      display: flex;
+      margin-top: 58px;
+      justify-content: center;
+
+      img {
+        width: 90%;
+
+        @media screen and(min-width: 500px) {
+          width: 40%;
+        }
+      }
+    }
+  }
+
+  &-how-to-use {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+
+    .title {
+      font-family: 'Rany', Arial, sans-serif;
+      font-style: normal;
+      text-align: center;
+      font-weight: 400;
+      font-size: 40px;
+      line-height: 36px;
+      letter-spacing: 0.05em;
+    }
+
+    .cards {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      flex-direction: column;
+
+      @media screen and(min-width: 500px) {
+        flex-direction: row;
+        width: 80%;
+      }
+
+      img {
+        width: 80%;
+
+        @media screen and(min-width: 500px) {
+          width: 33%;
+        }
+      }
+
+      .line {
+        border: 1px dashed #E8E8E8;
+        height: 20px;
+        width: 0;
+
+        @media screen and(min-width: 500px) {
+          width: 20px;
+          height: 0;
+        }
+      }
+    }
+
+  }
+
+
+  &-roadmap {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+
+    .title {
+      font-family: 'Rany', Arial, sans-serif;
+      font-style: normal;
+      text-align: center;
+      font-weight: 400;
+      font-size: 40px;
+      line-height: 36px;
+      letter-spacing: 0.05em;
+    }
+
+    .cards {
+      display: flex;
+      width: 100%;
+      justify-content: center;
+      flex-direction: column;
+
+      @media screen and(min-width: 500px) {
+        flex-direction: row;
+      }
+    }
+
+    .horizontal-cards {
+      flex-direction: column;
+      align-items: center;
+      display: flex;
+      gap: 20px;
+
+      @media screen and(min-width: 500px) {
+        align-items: flex-start;
+        flex-direction: row;
+        width: 80%;
+      }
+
+      img {
+        width: 80%;
+
+        @media screen and(min-width: 500px) {
+          width: 33%;
+        }
+      }
+    }
+
+    .vertical-cards {
+      flex-direction: column;
+      align-items: center;
+      display: flex;
+      gap: 20px;
+      width: 100%;
+
+      @media screen and(min-width: 500px) {
+        width: 33%;
+      }
+
+      img {
+        width: 80%;
+
+        @media screen and(min-width: 500px) {
+          width: 100%;
+        }
+      }
+    }
+
+    .progress-about {
+      margin-top: 20px;
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+
+      @media screen and(min-width: 500px) {
+        flex-direction: row;
+        gap: 50px;
+      }
+
+      img {
+        align-self: flex-start;
+        height: 30px;
+      }
+    }
+
+  }
+}
