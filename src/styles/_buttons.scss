@@ -21,6 +21,8 @@
 }
 
 .btn {
+  text-decoration: none;
+
   @include btn;
 
   padding: 6px 40px;

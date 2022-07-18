@@ -7,7 +7,9 @@ const Header: React.FC = () => {
       <div className="header-wrapper">
         <img className="logo" src="/images/logo.svg" alt="Apys" />
 
-        <button className="btn-bg">Launch app</button>
+        <a className="btn-bg" href="https://apys.io" target="_blank" rel="noreferrer">
+          Launch app
+        </a>
       </div>
     </header>
   );

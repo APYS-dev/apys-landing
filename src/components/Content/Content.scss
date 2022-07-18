@@ -33,6 +33,7 @@
       font-weight: 500;
       font-size: 60px;
       line-height: 70px;
+      margin: 0 0 15px;
     }
 
     .about {
@@ -113,6 +114,50 @@
       }
     }
 
+  }
+
+  &-staking {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+
+    .title {
+      font-family: 'Rany', Arial, sans-serif;
+      font-style: normal;
+      text-align: center;
+      font-weight: 400;
+      font-size: 40px;
+      line-height: 36px;
+      letter-spacing: 0.05em;
+      margin: 40px 0 0 0;
+    }
+
+    .description {
+      margin-top: 15px;
+      margin-bottom: 15px;
+      font-weight: 200;
+      font-size: 24px;
+      line-height: 132.3%;
+    }
+    .tokens {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      flex-direction: row;
+      margin: 20px;
+
+      img {
+        height: 50px;
+      }
+
+      .arrow {
+        width: 100px;
+        display: flex;
+        justify-content: center;
+      }
+    }
   }
 
 
@@ -197,7 +242,7 @@
 
       img {
         align-self: flex-start;
-        height: 30px;
+        height: 25px;
       }
     }
 

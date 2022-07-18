@@ -7,10 +7,8 @@ const Content: React.FC = () => {
       <div className="content-wrapper">
         <MainInfo />
         <HowToUse />
+        <Staking />
         <Roadmap />
-        <div className="deposit-btn-wrap">
-          <button className="btn-bg">Deposit</button>
-        </div>
       </div>
     </div>
   );
@@ -19,11 +17,16 @@ const Content: React.FC = () => {
 const MainInfo: React.FC = () => {
   return (
     <div className="content-main-info">
-      <p className="title">Automated Defi yield platform</p>
-      <p className="about">We are focusing to offer simplied experience to Defi users on Near</p>
+      <p className="title">Automated DeFi <br/> Yield Optimizer project</p>
+      <p className="about">We are focusing to offer simplified experience to DeFi users on Near</p>
       <div className="buttons">
-        <button className="btn-bg">Deposit</button>
-        <button className="btn-border">Details</button>
+        <a className="btn-bg" href="https://apys.io" target="_blank" rel="noreferrer">
+          Deposit
+        </a>
+
+        <a className="btn-border" href="https://docs.apys.io" target="_blank" rel="noreferrer">
+          Details
+        </a>
       </div>
       <div className="preview">
         <img src="/images/preview.png" />
@@ -66,6 +69,30 @@ const Roadmap: React.FC = () => {
         <img src="/cards/roadmap/Unscheduled.svg"/>
         <img src="/cards/roadmap/Implemented.svg"/>
       </div>
+    </div>
+  );
+};
+
+const Staking: React.FC = () => {
+  return (
+    <div className="content-staking">
+      <p className="title">Staking</p>
+      <div className="description">
+        Stake APYS tokens to claim your share in Allbridge
+      </div>
+
+      <div className="tokens">
+
+        <img src="/icons/tokens/apys.svg" />
+        <div className="arrow" >
+          <img src="/images/arrow.svg" />
+        </div>
+        <img src="/icons/tokens/abr.svg" />
+      </div>
+
+      <a className="btn-bg" href="https://stake.apyswap.com/" target="_blank" rel="noreferrer">
+        Stake
+      </a>
     </div>
   );
 };

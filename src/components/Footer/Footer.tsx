@@ -5,16 +5,19 @@ const Footer: React.FC = () => {
   return (
     <footer>
       <a href="https://twitter.com/apyswap" target="_blank" rel="noopener noreferrer">
-        <img src="/icons/social/twitter.png" alt="twitter" />
+        <img src="/icons/social/twitter.svg" alt="twitter" />
       </a>
       <a href="https://t.me/apyswapcom" target="_blank" rel="noopener noreferrer">
-        <img src="/icons/social/telegram.png" alt="telegram" />
+        <img src="/icons/social/telegram.svg" alt="telegram" />
       </a>
       <a href="https://apys.medium.com/" target="_blank" rel="noopener noreferrer">
-        <img src="/icons/social/medium.png" alt="medium" />
+        <img src="/icons/social/medium.svg" alt="medium" />
+      </a>
+      <a href="https://docs.apys.io" target="_blank" rel="noopener noreferrer">
+        <img src="/icons/social/doc.svg" alt="doc" />
       </a>
       <a href="https://github.com/APYS-dev" target="_blank" rel="noopener noreferrer">
-        <img src="/icons/social/github.png" alt="github" />
+        <img src="/icons/social/github.svg" alt="github" />
       </a>
     </footer>
   );
