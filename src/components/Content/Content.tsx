@@ -20,7 +20,7 @@ const MainInfo: React.FC = () => {
       <p className="title">Automated DeFi <br/> Yield Optimizer project</p>
       <p className="about">We are focusing to offer simplified experience to DeFi users on Near</p>
       <div className="buttons">
-        <a className="btn-bg" href="https://apys.io" target="_blank" rel="noreferrer">
+        <a className="btn-bg" href="https://app.apys.io" target="_blank" rel="noreferrer">
           Deposit
         </a>
 
