@@ -228,23 +228,19 @@
         }
       }
     }
-
-    .progress-about {
-      margin-top: 20px;
-      display: flex;
-      flex-direction: column;
-      gap: 20px;
-
-      @media screen and(min-width: 500px) {
-        flex-direction: row;
-        gap: 50px;
-      }
-
-      img {
-        align-self: flex-start;
-        height: 25px;
-      }
-    }
-
   }
+}
+
+.more-info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 40px;
+}
+
+.stake-details {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
 }

@@ -17,4 +17,15 @@ header {
       width: 80%;
     }
   }
+
+  .main-buttons {
+    display: flex;
+  }
+  .btn-docs {
+    margin-right: 20px;
+    display: none;
+    @media screen and(min-width: 500px) {
+      display: inherit;
+    }
+  }
 }

@@ -7,8 +7,8 @@ const Content: React.FC = () => {
       <div className="content-wrapper">
         <MainInfo />
         <HowToUse />
-        <Staking />
         <Roadmap />
+        <Staking />
       </div>
     </div>
   );
@@ -17,17 +17,8 @@ const Content: React.FC = () => {
 const MainInfo: React.FC = () => {
   return (
     <div className="content-main-info">
-      <p className="title">Automated DeFi <br/> Yield Optimizer project</p>
-      <p className="about">We are focusing to offer simplified experience to DeFi users on Near</p>
-      <div className="buttons">
-        <a className="btn-bg" href="https://app.apys.io" target="_blank" rel="noreferrer">
-          Deposit
-        </a>
-
-        <a className="btn-border" href="https://docs.apys.io" target="_blank" rel="noreferrer">
-          Details
-        </a>
-      </div>
+      <p className="title">DeFi Yield Optimizer</p>
+      <p className="about">APYS offers simplified yield farming experience on NEAR Protocol</p>
       <div className="preview">
         <img src="/images/preview.png" />
       </div>
@@ -64,11 +55,6 @@ const Roadmap: React.FC = () => {
           </div>
         </div>
       </div>
-      <div className="progress-about">
-        <img src="/cards/roadmap/Skipped.svg"/>
-        <img src="/cards/roadmap/Unscheduled.svg"/>
-        <img src="/cards/roadmap/Implemented.svg"/>
-      </div>
     </div>
   );
 };
@@ -76,7 +62,7 @@ const Roadmap: React.FC = () => {
 const Staking: React.FC = () => {
   return (
     <div className="content-staking">
-      <p className="title">Staking</p>
+      <p className="title">Foundation Staking</p>
       <div className="description">
         Stake APYS tokens to claim your share in Allbridge
       </div>
@@ -90,9 +76,16 @@ const Staking: React.FC = () => {
         <img src="/icons/tokens/abr.svg" />
       </div>
 
-      <a className="btn-bg" href="https://stake.apyswap.com/" target="_blank" rel="noreferrer">
-        Stake
-      </a>
+      <div className="stake-details">
+        <a className="btn-bg" href="https://stake.apyswap.com/" target="_blank" rel="noreferrer">
+          Stake
+        </a>
+
+        <a className="btn-border" href="https://docs.apyswap.com/apys-staking" target="_blank" rel="noreferrer">
+          Details
+        </a>
+      </div>
+
     </div>
   );
 };
