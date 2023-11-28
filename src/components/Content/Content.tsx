@@ -8,7 +8,7 @@ const Content: React.FC = () => {
         <MainInfo />
         <HowToUse />
         <Roadmap />
-        <Staking />
+        {/* <Staking />*/}
       </div>
     </div>
   );
